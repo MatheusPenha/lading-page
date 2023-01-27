@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background-image: radial-gradient(circle at 18.06% 31.56%, #243132 0, #1f2727 16.67%, #191a1a 33.33%, #0e0406 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+.link-click {
+    color: rgb(217, 230, 222);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*NOTA!! QUANDO FOR COLOCAR O HOVER USA A LOCALIZAÇÃO DO NAV*/
+nav a:hover {
+    color: gold;
+    transition: all 2.5s;
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff;
+    margin-bottom: 48px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*esta propriedade e pra alinhar o texto e a imagem na mesma linha*/
+    /*justify-content: center; aqui brother e o seguinte e só centralizar o o conteudo. */
+    justify-content: space-around;
+}
+
+.principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-escrito-titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.principal-escrito-subtitulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #ecd6c4;
+    font-size: 24px;
+}
+
+.Principal-escrito-botao {
+    background-color: #ecd6c4;
+    width: 185px;
+    height: 67px;
+    border-radius: 50px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.Principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+    transition: all 2s;
+}
+
+.imagem{
+height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff;
+    padding-top: 48px;
+    color: #ecd6c4;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: #ecd6c4;
+    font-size: 18px;
+}
+
+.video-tutorial{
+    height: 650px;
+    width: 1080px;
+}
+
+footer {
+    border-top: 0.4px solid #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer h4 {
+    /*margin: 30.5px;*/
+    font-size: 60px;
+    text-align: center;
+    color: #ecd6c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon-midia{
+    display: flex;
+    ;
+}
